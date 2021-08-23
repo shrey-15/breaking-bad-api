@@ -1,4 +1,3 @@
-import { getSuggestedQuery } from '@testing-library/react'
 import React, { useState } from 'react'
 
 const SearchBar = ({getQuery}) => {
@@ -14,8 +13,9 @@ const SearchBar = ({getQuery}) => {
             <form>
                 <input 
                 type='text' 
-                className='form-control' 
+                className='form-control'
                 placeholder='Search characters' 
+                value={text}
                 onChange={(e) => onChange(e.target.value)
                 }
                 autoFocus
