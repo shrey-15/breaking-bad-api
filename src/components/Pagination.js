@@ -1,15 +1,14 @@
  import React from 'react'
- import 'bootstrap/dist/css/bootstrap.css';
 
  
- const Pagination = (cardsPerPage, totalCards, paginate) => {
+ const Pagination = ({cardsPerPage, totalCards, paginate}) => {
      const pageNo = [];
 
      for(let i=1;i<=Math.ceil(totalCards/ cardsPerPage);i++){
-         pageNo.push(i)
+         console.log(pageNo.push(i));
      }
      return (
-        <nav>
+        <nav aria-label="Page navigation example">
             <ul className="pagination">
                 {pageNo.map(number =>(
                     <li key={number} className="page-item">
