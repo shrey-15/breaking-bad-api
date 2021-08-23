@@ -14,7 +14,7 @@ const CharacterItem = ({item}) => {
                 <strong>Actor Name:</strong> {item.portrayed}
               </li>
               <li>
-                <strong>Nickname:</strong> {item.nickname}
+                <strong>Occupation:</strong> {item.occupation}
               </li>
               <li>
                 <strong>Birthday:</strong> {item.birthday}
