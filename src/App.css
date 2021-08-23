@@ -48,6 +48,63 @@ header img {
   justify-content: center;
 }
 
+.page{
+  margin: 2vw;
+}
+
+.myModal{
+  position: fixed;
+  top:20%;
+  width: 100vw;
+  margin: auto auto;
+  padding: 2vw;
+  background-color: rgba(22,22,22);
+}
+
+.info-image{
+  width: 280px;
+  height:350px;
+}
+
+.info{
+  list-style-type:none;
+}
+
+.close{
+  position: fixed;
+  left: 90%;
+}
+
+.pagination > li > a
+{
+    background-color: #000;
+    color: #3fb573;
+    border-color: #333333;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: #f0eeee;
+    background-color: #3fb573;
+    border-color: rgb(46, 46, 46);
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: #3fb573 !Important;
+    border: solid 1px #3fb573 !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #3fb573 !Important;
+    border: solid 1px #3fb573;
+}
+
 .search {
   height: 100px;
 }

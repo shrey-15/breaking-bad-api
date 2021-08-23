@@ -7,6 +7,7 @@ import SearchBar from './components/ui/SearchBar';
 import CharacterGrid from './components/bbcharacters/CharacterGrid';
 import Pagination from './components/Pagination';
 
+
 const App = () => {
   const [items, setItems] = useState([])
   const [isLoading, setIsLoading] = useState(true)
@@ -34,6 +35,8 @@ const curCards = items.slice(indexOfFirstCard, indexOfLastCard)
 
 //Change page
 const paginate = (pageNo) => setCurPage(pageNo)
+
+
   return (
     <div className="container">
       <Header></Header>
